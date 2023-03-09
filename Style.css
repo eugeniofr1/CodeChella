@@ -1,7 +1,14 @@
+@import url(assets/styles/header.css);
+
+
 :root{
     --roxo: #4650BD;
     --branco: #FFFFFF;
     --gradiente: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
     --fonte-principal: 'Raleway', sans-serif;
     --fonte-secundaria: font-family: 'Calistoga', cursive;
+}
+
+body{
+    font-family: var(--fonte-principal);
 }
