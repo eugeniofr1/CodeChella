@@ -1,15 +1,17 @@
 .sobre{
     background: var(--gradiente);
-    padding: 32px 24px;
+    
 }
 
 .sobre__container{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 32px 24px;
 }
 
 .sobre__titulo{
+    margin-top: 32px;
     font-weight: 700;
     font-size: 32px;
     color: var(--branco);
@@ -19,4 +21,23 @@
     font-weight: 500;
     color: var(--branco);
     font-size: 20px;
+    margin: 24px 0;
+}
+
+.botao__ingresso{
+    display: flex;
+    background-color: var(--roxo);
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    box-shadow: 4px 4px 0px var(--shadows);
+    border-radius: 10px;
+}
+
+.botao__texto{
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--branco);
+    text-decoration: none;
 }
