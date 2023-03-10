@@ -1,4 +1,6 @@
 @import url(assets/styles/header.css);
+@import url(assets/styles/banner.css);
+@import url(assets/styles/sobre.css);
 
 
 :root{
@@ -12,3 +14,4 @@
 body{
     font-family: var(--fonte-principal);
 }
+
