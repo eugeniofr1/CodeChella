@@ -1,4 +1,22 @@
 .sobre{
-    background-color: var(--gradiente);
+    background: var(--gradiente);
+    padding: 32px 24px;
+}
+
+.sobre__container{
     display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sobre__titulo{
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--branco);
+}
+
+.sobre__descricao{
+    font-weight: 500;
+    color: var(--branco);
+    font-size: 20px;
 }
