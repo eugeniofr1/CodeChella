@@ -3,6 +3,7 @@
 ## Alura Challenge Front-End
 
 Desenvolvendo Mobille First
+# Apenas mobille no momento: https://eugeniofr1.github.io/CodeChella/
 
 ### HTML CSS JavaScript
 
