@@ -1,0 +1,51 @@
+.lineup{
+    text-align: center;
+}
+
+.lineup__titulo{
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 48px;
+    margin: 32px 0;
+    color: var(--branco);
+}
+.lineup__atracoes{
+    display: flex;
+    padding: 48px 24px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.lineup__data{
+    font-family: var(--fonte-secundaria);
+    font-size: 32px;
+    font-weight: 400;
+    padding: 16px 0;
+    color: var(--branco);
+    background-color: var(--verde);
+    width: 312px;
+
+}
+
+.lista-atracoes__item{
+    color: var(--branco);
+    font-weight: 700;
+    padding: 16px 0;
+}
+.atracao__principal{
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+
+.atracao__secundaria{
+    font-size: 40px;
+}
+
+.atracao__terciaria{
+    font-size: 32px;
+}
+
+.atracao__final{
+    font-weight: 500;
+}

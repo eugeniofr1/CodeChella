@@ -1,18 +1,18 @@
 @import url(assets/styles/header.css);
 @import url(assets/styles/banner.css);
 @import url(assets/styles/sobre.css);
-
+@import url(assets/styles/lineup.css);
 
 :root{
     --roxo: #4650BD;
     --branco: #FFFFFF;
     --gradiente: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
     --fonte-principal: 'Raleway', sans-serif;
-    --fonte-secundaria: font-family: 'Calistoga', cursive;
+    --fonte-secundaria: 'Calistoga', cursive;
     --shadows: #444444;
+    --verde: #008364;
 }
 
 body{
     font-family: var(--fonte-principal);
 }
-
